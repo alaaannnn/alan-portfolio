@@ -1,16 +1,17 @@
 import React from "react"
 import Image from "next/image"
-import profile from "../public/assets/profile.jpg"
+import profile from "../public/images/profile.jpg"
 
 const Hero = () => {
   return (
-    <div className="container px-4 mx-auto">
+    <section className="bg-white dark:bg-gray-800">
+    <div className="px-4 mx-auto bg-white dark:bg-gray-900">
       <div className="lg:space-x-5 lg:flex lg:flex-row item-center lg:mx-4 flex flex-col-reverse text-center lg:text-left">
         <div className="lg:px-4 lg:mt-12 ">
-          <h2 className="text-4xl font-bold text-gray-900 lg:text-5xl dark:text-white">
+          <h2 className="text-5xl font-bold text-gray-900 lg:text-7xl dark:text-white">
             Hey! I'm
           </h2>
-          <h1 className="text-7xl font-bold text-blue-800 lg:text-8xl dark:text-white">
+          <h1 className="text-8xl font-bold text-blue-800 lg:text-9xl dark:text-white">
             Alan
           </h1>
           <div className="mt-6 text-gray-800 dark:text-white">
@@ -35,6 +36,7 @@ const Hero = () => {
       </div>
     </div>
   </div>
+  </section>
   );
 };
 

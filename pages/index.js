@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Hero from '../components/Hero';
-import Test from '../components/Test';
 
 export default function Home() {
   return (
@@ -12,7 +11,6 @@ export default function Home() {
 
       <main className="max-w-4xl mx-auto mt-16 antialiased">
         <Hero />
-        <Test />
       </main>
     </div>
   );

@@ -1,6 +1,12 @@
 const userData = {
-  name: 'Alan Ye',
-  designation: 'Full Stack Developer',
+
+  // Navigation Bar Static Information
+  name: "Alan Ye",
+  designation: "Full Stack Developer",
+  email: "alye13@gmail.com",
+  resumeUrl: "/",
+
+  // Projects & Skills
   projects: [
     {
       title: "React Reserve",
@@ -36,13 +42,13 @@ const userData = {
     },
   ],
   skills: [
-    "JavaScript",
-    "React",
-    "Next.js",
-    "Node",
-    "Express",
-    "Tailwind CSS"
+    {
+      title: "JavaScript",
+      dataFor: "javascript",
+      src:"javascript",
+    }
   ],
+  
   
   // About Page Static Information
   about: {
