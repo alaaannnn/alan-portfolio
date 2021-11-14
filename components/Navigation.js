@@ -7,6 +7,7 @@ import userData from "../constants/data";
 const Navigation = () => {
   const router = useRouter();
   console.log(router.asPath);
+  
   return (
     <div className="sticky top-0 z-20 py-2 bg-gray-50 md:py-6 md:mb-6 dark:bg-black">
       <div className="container px-4 mx-auto lg:max-w-4xl flex items-center justify-between">
