@@ -1,7 +1,7 @@
 import React from "react";
 import ReactTooltip from "react-tooltip";
 import userData from "../constants/data";
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
+import { ChipIcon } from "@heroicons/react/solid";
 
 export default function About() {
   return (
@@ -66,7 +66,7 @@ export default function About() {
                 and I'd love to work for you.
               </p>
             </div>
-            
+
             {/* Social Links */}
             <h1 className="text-xl font-semibold text-gray-700 mt-8 dark:text-gray-200">
               Social Links
@@ -158,7 +158,7 @@ export default function About() {
                 className="h-20 w-20 mx-4 my-4 transition duration-500 ease-in-out transform md:w-20 hover:scale-110"
               />
               <ReactTooltip id="javascript" place="bottom" effect="solid">
-              <span className="text-lg">JavaScript</span>
+                <span className="text-lg">JavaScript</span>
               </ReactTooltip>
               <img
                 data-tip
@@ -167,7 +167,7 @@ export default function About() {
                 className="h-20 w-20 mx-4 my-4 transition duration-500 ease-in-out transform md:w-20 hover:scale-110"
               />
               <ReactTooltip id="typescript" place="bottom" effect="solid">
-              <span className="text-lg">TypeScript</span>
+                <span className="text-lg">TypeScript</span>
               </ReactTooltip>
               <img
                 data-tip
@@ -176,7 +176,7 @@ export default function About() {
                 className="h-20 w-20 mx-4 my-4 transition duration-500 ease-in-out transform md:w-20 hover:scale-110"
               />
               <ReactTooltip id="html-5" place="bottom" effect="solid">
-              <span className="text-lg">HTML5</span>
+                <span className="text-lg">HTML5</span>
               </ReactTooltip>
               <img
                 data-tip
@@ -185,7 +185,7 @@ export default function About() {
                 className="h-20 w-20 mx-4 my-4 transition duration-500 ease-in-out transform md:w-20 hover:scale-110"
               />
               <ReactTooltip id="css3" place="bottom" effect="solid">
-              <span className="text-lg">CSS3</span>
+                <span className="text-lg">CSS3</span>
               </ReactTooltip>
               <img
                 data-tip
@@ -194,7 +194,7 @@ export default function About() {
                 className="h-20 w-20 mx-4 my-4 transition duration-500 ease-in-out transform md:w-20 hover:scale-110"
               />
               <ReactTooltip id="react" place="bottom" effect="solid">
-              <span className="text-lg">React</span>
+                <span className="text-lg">React</span>
               </ReactTooltip>
               <img
                 data-tip
@@ -203,33 +203,80 @@ export default function About() {
                 className="h-20 w-20 mx-4 my-4 transition duration-500 ease-in-out transform md:w-20 hover:scale-110"
               />
               <ReactTooltip id="redux" place="bottom" effect="solid">
-              <span className="text-lg">Redux</span>
+                <span className="text-lg">Redux</span>
               </ReactTooltip>
               <img
+                data-tip
+                data-for="vue"
                 src="images/vue.svg"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-4 transition duration-500 ease-in-out transform md:w-20 hover:scale-110"
               />
+              <ReactTooltip id="vue" place="bottom" effect="solid">
+                <span className="text-lg">Vue</span>
+              </ReactTooltip>
               <img
+                data-tip
+                data-for="nodejs"
                 src="images/nodejs-icon.svg"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-4 transition duration-500 ease-in-out transform md:w-20 hover:scale-110"
               />
+              <ReactTooltip id="nodejs" place="bottom" effect="solid">
+                <span className="text-lg">Node.js</span>
+              </ReactTooltip>
               <img
+                data-tip
+                data-for="nextjs"
                 src="images/nextjs.svg"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-4 transition duration-500 ease-in-out transform md:w-20 hover:scale-110"
               />
+              <ReactTooltip id="nextjs" place="bottom" effect="solid">
+                <span className="text-lg">Next.js</span>
+              </ReactTooltip>
               <img
+                data-tip
+                data-for="tailwind"
                 src="images/tailwindcss-icon.svg"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-4 transition duration-500 ease-in-out transform md:w-20 hover:scale-110"
               />
+              <ReactTooltip id="tailwind" place="bottom" effect="solid">
+                <span className="text-lg">Tailwind CSS</span>
+              </ReactTooltip>
               <img
+                data-tip
+                data-for="postgresql"
                 src="images/postgresql.svg"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-4 transition duration-500 ease-in-out transform md:w-20 hover:scale-110"
               />
+              <ReactTooltip id="postgresql" place="bottom" effect="solid">
+                <span className="text-lg">PostgreSQL</span>
+              </ReactTooltip>
               <img
+                data-tip
+                data-for="mongodb"
                 src="images/mongodb.svg"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-4 transition duration-500 ease-in-out transform md:w-20 hover:scale-110"
               />
+              <ReactTooltip id="mongodb" place="bottom" effect="solid">
+                <span className="text-lg">MongoDB</span>
+              </ReactTooltip>
             </div>
+            
+            <div className="flex flex-row space-x-4">
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                class="h-6 w-6" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor">
+                <path 
+                  stroke-linecap="round" 
+                  stroke-linejoin="round" 
+                  stroke-width="2" 
+                  d="M7 16l-4-4m0 0l4-4m-4 4h18" />
+              </svg>
+              <p className="font-mono"> and plenty more! Check the resume!</p>
+            </div>
+            
           </div>
         </div>
       </div>
