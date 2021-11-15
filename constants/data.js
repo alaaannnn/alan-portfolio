@@ -41,15 +41,15 @@ const userData = {
       link: "https://pythonbootcamp.com",
     },
   ],
-  skills: [
-    {
+  skills: {
+    'javascript': {
       title: "JavaScript",
       dataFor: "javascript",
-      src:"javascript",
-    }
-  ],
+      src:"/images/javascript.svg",
+    },
+  },
   
-  
+
   // About Page Static Information
   about: {
     title: "Aspiring software engineer",
